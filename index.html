@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> formulario de registro</title>
+    <style>
+        label,
+        input,button {
+            color: rgb(163, 17, 85);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: rgb(12, 145, 52);">FORMULARIO DE REGISTRO</h1>
+    <form action="procesar_registro.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+        <label for="telefono">telefono:</label>
+        <input type="telefono" id="telefono" name="email" placeholder="telefono" required><br><br>
+
+        <label for="direccion">direccion:</label>
+        <input type="direccion" id="direccion" name="direccion" placeholder="direccion  " required><br><br>
+
+        <button type="submit" formaction="../proceso1/retroceso.html">Enviar</button>
+        
+    </form>    
+
+</body>
+
+</html>
